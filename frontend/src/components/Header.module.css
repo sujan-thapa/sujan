@@ -1,12 +1,5 @@
 /* Base Styles */
 .header {
-  /* background: white;
-  padding: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 100; */
   background: white;
   padding: 1rem 0;
   /* display: flex; */
@@ -109,17 +102,15 @@
   color: #3a86ff;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
   .desktopNav {
-    display: none;
+    flex-direction: column;
   }
-
-  .menuButton {
-    display: block;
-  }
-
-  .mobileNav {
-    display: flex;
-  }
+  
+  
+  
 }
