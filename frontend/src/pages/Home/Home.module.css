@@ -54,9 +54,26 @@
 
 .myInfo {
     margin-top: 20px;
+    text-align: justify;
 }
 
 .myInfoText {
     margin: 12px auto;
+    text-align: justify;
+
 }
 
+@media (max-width: 1200px){
+    .home{
+        flex-direction: column;
+        align-items: center;
+    }
+    .portrait {
+        margin-bottom: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    .info{
+        align-items: center;
+    }
+}
