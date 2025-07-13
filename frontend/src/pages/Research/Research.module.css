@@ -10,9 +10,33 @@
     align-items: start;
     width: 40%;
     margin: 25px auto;
+
+
+    
+    
 }
 
 .projects p {
-    line-height: 1.5;
-    /* text-align: justify; */
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+    .projects p{
+        text-align: left;
+    }
+}
+
+
+/* p {
+  text-align: justify;
+  hyphens: auto;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  p {
+    text-align: left;
+  }
+} */
