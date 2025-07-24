@@ -1,15 +1,19 @@
 .footer {
-    width: 100%;
-    border-top: 1px solid #c7c4c4;
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2rem;
+  background: #18181b;
+  color: #fff;
+  gap: 2rem;
+}
+
+
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
     align-items: center;
-    /* Uncommented */
-    /* background-color: #f1f1f1;  */
-    
-    min-height: 200px;
-    height: auto; 
-    
-    /* For sticky footer behavior */
-    margin-top: auto;
+    text-align: center;
+  }
 }
