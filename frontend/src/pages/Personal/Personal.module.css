@@ -48,3 +48,19 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media (max-width: 768px) {
+    .loveOne, .loveTwo {
+        grid-template-columns: 1fr;
+        width: 90%;
+    }
+    .imagesContainer {
+        display: grid;
+        gap: 10px;
+    }
+    .images {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        
+    }
+}
